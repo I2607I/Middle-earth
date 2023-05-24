@@ -1,0 +1,143 @@
+.time-table {
+    margin-bottom: 30px;
+    font-family: PTSansBold;
+    width: 100%;
+    table-layout: fixed;
+    width: 100%;
+  }
+  .time-table .col1 {
+    width: 10%;
+  }
+  .time-table .coln {
+    width: 15%;
+  }
+  .time-table td{
+    position: relative;
+  }
+  .time-table tr {
+    height: 147px;
+  }
+  .time-table tr:nth-child(even) td:nth-child(even), .time-table tr:nth-child(odd) td:nth-child(odd) {
+    background: #f2f2f2;
+  }
+  .time-table tr th {
+    text-align: center;
+    padding-left: 15px;
+  }
+  .time-table tr td {
+    text-align: left;
+    padding-left: 15px;
+  }
+  .time-table tr th:first-child, .time-table tr td:first-child {
+    padding-left: 25px !important;
+  }
+  .time-table tr td:first-child {
+    font-size: 20px;
+    background: white !important;
+  }
+  .time-table tr:first-child {
+    height: 50px;
+    background-color: #6dbd46;
+    font-size: 18px;
+    color: white;
+  }
+  .time-table tr:not(:first-child) {
+    vertical-align: top;
+  }
+  .time-table tr:not(:first-child) td {
+    padding: 0px;
+  }
+  
+  .cell {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px;
+  }
+  .cell:not(:first-child):before{
+    margin-top: -20px;
+    margin-bottom: 10px;
+    content: '';
+    width: 100%;
+    border-top: 2px solid #6dbd46;
+  }
+  .subject{
+    padding-right: 19px;
+    cursor: pointer;
+  }
+  .subject, .room, .tutor, .week, .group {
+    font-size: 15px;
+    color: #272727;
+  }
+  
+  a.tutor, a.group {
+    font-family: PTSansRegular;
+    color: #1bbfeb;
+    text-decoration: underline;
+  }
+  
+  .week {
+    background: silver;
+    padding: 0 7px 2px;
+    margin-top: 5px;
+  }
+  .type {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: block;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #555555;
+    color: white;
+    font-size: 12px;
+    line-height: 1.75;
+  }
+  .type.f_2 {
+    width: 38px;
+    border-radius: 25%;
+  }
+  .lek{
+    background: #72c81e;
+  }
+  .pr{
+    background: #00bde8;
+  }
+  .lab{
+    background: #ff9600;
+  }
+  .f{
+    background: #e41f26;
+  }
+  .ak{
+    background: #ffba00;
+  }
+  .main_head{
+    position: relative;
+  }
+  .nav-print{
+    position: absolute;
+    right: 0;
+  }
+  
+  .nav-print a{
+    margin-left: 15px;
+    color: #272727;text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .icon-print{
+    display: inline-block;
+    width: 28px;
+    height: 27px;
+    background: url(../img/icon/icon-print.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: -4px;
+  }
+  
