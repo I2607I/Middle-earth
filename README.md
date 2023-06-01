@@ -12,12 +12,12 @@
 
 
 - Начальный этап выкладывания фишек
-<img src="images/readme2.png" title="Начальный этап выкладывания фишек" width="50%" height="50%" />
+<img src="images/readme2.png" title="Начальный этап выкладывания фишек" width="80%" height="80%" />
 
 
 - Начальный этап выкладывания фишек
-<img src="images/readme3.png" title="Начальный этап выкладывания фишек" width="50%" height="50%" />
+<img src="images/readme3.png" title="Начальный этап выкладывания фишек" width="80%" height="80%" />
 
 
 - Начальный этап выкладывания фишек
-<img src="images/readme4.png" title="Начальный этап выкладывания фишек" width="50%" height="50%" />
+<img src="images/readme4.png" title="Начальный этап выкладывания фишек" width="80%" height="80%" />
