@@ -8,16 +8,16 @@
 
 
 - Список всех народов
-<img src="images/readme1.png" title="Начальный этап выкладывания фишек" width="80%" height="80%" />
+<img src="images/readme1.png" title="Список всех народов" width="80%" height="80%" />
 
 
 - А тут только гномы. (но он один)
-<img src="images/readme2.png" title="Начальный этап выкладывания фишек" width="80%" height="80%" />
+<img src="images/readme2.png" title="А тут только гномы. (но он один)" width="80%" height="80%" />
 
 
-- Начальный этап выкладывания фишек
-<img src="images/readme3.png" title="Начальный этап выкладывания фишек" width="80%" height="80%" />
+- Страница с информацией об Арагорне!
+<img src="images/readme3.png" title="Страница с информацией об Арагорне!" width="80%" height="80%" />
 
 
-- Начальный этап выкладывания фишек
-<img src="images/readme4.png" title="Начальный этап выкладывания фишек" width="80%" height="80%" />
+- Страница регистрации
+<img src="images/readme4.png" title="Страница регистрации" width="80%" height="80%" />
