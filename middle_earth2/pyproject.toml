@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "middle_earth"
+version = "0.1.0"
+description = ""
+authors = ["Igor Polovko <Bujhm2607@yandex.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.7.3"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.30"}
+sqlalchemy-utils = "^0.41.2"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.1"
+asyncpg = "^0.29.0"
+email-validator = "^2.1.1"
+pydantic-settings = "^2.3.1"
+alembic = "^1.13.1"
+bcrypt = "^4.2.0"
+fastapi = "^0.115.0"
+uvicorn = "^0.31.0"
+jinja2 = "^3.1.4"
+
+
+[tool.black]
+line-length = 120
+target-version = ['py310']
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+)
+'''
+
+[tool.isort]
+known_local_folder = "middle_earth"
+lines_after_imports = 2
+multi_line_output = 3
+line_length = 120
+include_trailing_comma = true
