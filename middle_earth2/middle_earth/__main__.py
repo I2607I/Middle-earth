@@ -50,7 +50,7 @@ def get_app() -> FastAPI:
 
 
 app = get_app()
-app.mount('/static', StaticFiles(directory='static'), 'static')
+app.mount('/static', StaticFiles(directory='middle_earth/static'), 'static')
 
 
 if __name__ == "__main__":  # pragma: no cover

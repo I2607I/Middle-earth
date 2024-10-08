@@ -4,7 +4,7 @@ from fastapi.templating import Jinja2Templates
 from middle_earth.endpoints.main import character
 
 router = APIRouter(prefix='/pages', tags=['Фронтенд'])
-templates = Jinja2Templates(directory='templates')
+templates = Jinja2Templates(directory='middle_earth/templates')
 
 
 @router.get('/characters/{id}')

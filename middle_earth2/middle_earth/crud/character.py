@@ -19,18 +19,27 @@ def get_usuall_session():
 
 #word
 async def create_character(session, name, content=None):
-    character = session.execute(select(Character).where(name==Character.name)).scalars().first()
+    print(555555555555555555555555555555)
+    print()
+    print()
+    print(name, content)
+    character_query = select(Character).where(name==Character.name)
+    character = await session.scalar(character_query)
     new_character = None
     if not character:
         t = datetime.datetime.now()
         new_character = Character(name=name, content=content, dt_created=t, dt_updated=t)
+        print(666666666666666666666, '\n', '\n')
+        print(new_character)
+        print(new_character.name)
         session.add(new_character)
-        session.commit()
-        session.refresh(new_character)
+        await session.commit()
+        await session.refresh(new_character)
     return new_character
 
 async def get_character(session, name):
-    character = session.execute(select(Character).where(name==Character.name)).scalars().first()
+    character_query = select(Character).where(name==Character.name)
+    character = await session.scalars(character_query)
     return character
 
 async def get_character_id(session, id):
@@ -43,3 +52,4 @@ async def get_character_id(session, id):
 # name = 'Гендальф'
 # content = 'Один из пяти истари, прибывших в Средиземье в Вторую Эпоху'
 # print(create_character(session, name, content))
+

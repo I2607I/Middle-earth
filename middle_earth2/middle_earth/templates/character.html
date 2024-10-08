@@ -7,16 +7,42 @@
     <link rel="stylesheet" type="text/css" href="/static/styles/character.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Информация о студенте</h1>
-        <div class="student-profile">
-            <div class="student-info">
-                <h2>ID: {{ character.id }}</h2>
-                <p><strong>Имя:</strong> {{ character.name }}</p>
-                <p>{{character.content}}</p>
-            </div>
+    <div class="container2">
+        <div id="leftcon">
         </div>
-        <a href="/students" class="back-link">Вернуться к списку студентов</a>
+        <div id="midcon">
+            <img src="/static/images/{{ character.name }}.webp" alt="Фото студента" width="20%">
+            <div class="student-profile">
+                <div class="student-info">
+                    <h1> {{ character.name }}</h1>
+                    <p>{{character.content}}</p>
+                </div>
+                <div>Hiiiii</div>
+            </div>
+            <a href="/main" class="back-link">Главная страница</a>
+        </div>
+        <div id="rightcon">
+            Hiiiii
+        </div>
+    </div>
+
+
+
+
+    <div class='container'>
+        text
+    </div>
+    <div class="container2">
+        <div id="con1">
+            Привет
+        </div>
+        <div id="con2">
+            Пока
+        </div>
+        <div id="con3">wwwwwwww</div>
+    </div>
+    <div class="container2">
+        Привет
     </div>
 </body>
 </html>
